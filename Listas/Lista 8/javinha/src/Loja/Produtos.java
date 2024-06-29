@@ -4,7 +4,7 @@ public class Produtos {
     private String nome;
     private Double preco;
 
-    public Produtos(String nome, double preco)throws NomeInvalidoExcepticon, PrecoInvalidoException {
+   public Produtos(String nome, double preco)throws NomeInvalidoExcepticon, PrecoInvalidoException {
         setNome(nome);
         setpreco(preco);   
     }
